@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/settings_constant_costs_relative_layout_id"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.berlejbej.saver.MainActivity">
+
+    <TextView
+        android:id="@+id/constant_costs_name_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="@string/action_constant_costs"/>
+
+    <LinearLayout
+        android:id="@+id/settings_constant_costs_buttons_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/constant_costs_name_id">
+
+        <include
+            layout="@layout/fragments_constant_costs_add_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/settings_constant_costs_add_button_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/button_background"
+            android:textColor="@color/button_text"
+            android:textSize="20dp"
+            android:text="@string/add"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:layout_below="@id/settings_constant_costs_buttons_layout_id">
+        <com.berlejbej.saver.constant_costs.ConstantCostsListView
+            android:id="@+id/settings_costs_list_view_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </com.berlejbej.saver.constant_costs.ConstantCostsListView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior=
+        "@string/appbar_scrolling_view_behavior"
+    tools:context="com.berlejbej.saver.MainActivity">
+
+    <!-- WHOLE SCREEN -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <!-- VISIBLE PART -->
+        <LinearLayout
+            android:id="@+id/main_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/window_vertical_padding"
+            android:paddingBottom="@dimen/window_vertical_padding"
+            android:orientation="vertical"
+            android:clipToPadding="false">
+
+            <!-- Here blocks are added programmatically -->
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

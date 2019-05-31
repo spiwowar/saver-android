@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_main"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/action_main" />
+        <item
+            android:id="@+id/action_income"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/action_income" />
+        <item
+            android:id="@+id/action_contant_costs"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/action_constant_costs" />
+        <item
+            android:id="@+id/action_additional_income"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/action_additional_income" />
+        <item
+            android:id="@+id/action_predictions"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/action_predictions" />
+        <item
+            android:id="@+id/action_statistics"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/action_statistics" />
+    </group>
+
+</menu>

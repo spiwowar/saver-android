@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_marginLeft="@dimen/block_margin_horizontal"
+    android:layout_marginRight="@dimen/block_margin_horizontal"
+    android:layout_marginTop="@dimen/block_margin_vertical"
+    android:layout_marginBottom="@dimen/block_margin_vertical"
+    android:elevation="@dimen/block_elevation"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.berlejbej.saver.blocks.utils.costs.CostsExpandableListView
+        android:id="@+id/block_costs_expandable_list_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp">
+    </com.berlejbej.saver.blocks.utils.costs.CostsExpandableListView>
+
+    <TextView
+        android:id="@+id/block_costs_see_all_costs_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="@string/see_all_costs"
+        android:visibility="gone"
+        android:layout_below="@id/block_costs_expandable_list_view_id"/>
+
+    <TextView
+        android:id="@+id/main_lack_of_costs_text_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="@string/lack_of_costs"
+        android:visibility="gone"
+        android:layout_below="@id/block_costs_expandable_list_view_id"/>
+
+</LinearLayout>

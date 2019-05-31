@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main_targets_view_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_marginLeft="@dimen/block_margin_horizontal"
+    android:layout_marginRight="@dimen/block_margin_horizontal"
+    android:layout_marginTop="@dimen/block_margin_vertical"
+    android:layout_marginBottom="@dimen/block_margin_vertical"
+    android:paddingBottom="@dimen/block_padding_vertical"
+    android:paddingTop="@dimen/block_padding_vertical"
+    android:elevation="@dimen/block_elevation"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_targets_title_id"
+            android:background="@color/header_background">
+
+            <TextView
+                android:id="@+id/main_targets_view_title_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/block_title_padding_vertical"
+                android:paddingBottom="@dimen/block_title_padding_vertical"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/text_title_size"
+                android:textStyle="bold"
+                android:text="@string/save_targets"/>
+
+            <com.berlejbej.saver.utils.ClickableFrameLayout
+                android:id="@+id/main_target_add_button_space_id"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true">
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center"
+                    android:background="@drawable/add"/>
+            </com.berlejbej.saver.utils.ClickableFrameLayout>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/line_separator"
+            android:layout_below="@+id/main_targets_title_id"/>
+        <TextView
+            android:id="@+id/main_lack_of_targets_text_view_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:text="@string/lack_of_targets"
+            android:visibility="visible"
+            android:layout_below="@id/main_targets_title_id"/>
+    </RelativeLayout>
+    <com.berlejbej.saver.blocks.utils.targets.TargetsListView
+        android:id="@+id/main_target_list_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.berlejbej.saver.blocks.utils.targets.TargetsListView>
+</LinearLayout>

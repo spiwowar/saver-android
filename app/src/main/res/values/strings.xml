@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Saver</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ustawienia</string>
+    <string name="action_main">Główna</string>
+    <string name="action_income">Zarobki</string>
+    <string name="action_constant_costs">Koszty stałe</string>
+    <string name="action_additional_income">Dodatkowe środki</string>
+    <string name="action_predictions">Przwidywania</string>
+    <string name="action_statistics">Statystyki</string>
+
+
+
+
+    <string name="save_target">Cel</string>
+    <string name="target">Cel</string>
+    <string name="save_targets">Cele</string>
+    <string name="save_target_remaining">Pozostało</string>
+    <string name="save_target_final_cost">Cel</string>
+    <string name="remaining_avail_money">Pozostało</string>
+    <string name="zl">zł</string>
+    <string name="day">dzień</string>
+    <string name="month">Miesiąc</string>
+    <string name="balance">Saldo</string>
+    <string name="expense">Wydatek</string>
+    <string name="constant_expense">Wydatek stały</string>
+    <string name="till_when">Do kiedy</string>
+    <string name="when">Kiedy</string>
+    <string name="what">Co</string>
+    <string name="category">Kategoria</string>
+    <string name="choose">Wybierz</string>
+    <string name="today">Dzisiaj</string>
+    <string name="how_much">Ile</string>
+    <string name="approve">Zatwierdź</string>
+    <string name="incomings">Zarobki</string>
+    <string name="name">Nazwa</string>
+    <string name="add">Dodaj</string>
+    <string name="frequency">Częstotliwość</string>
+    <string name="add_target">Dodaj cel</string>
+    <string name="add_cost">Dodaj wydatek</string>
+    <string name="cancel">Anuluj</string>
+    <string name="contant_income">Stały dochód</string>
+    <string name="income">Zarobki</string>
+    <string name="next">Dalej</string>
+    <string name="ok">Ok</string>
+    <string name="start_remaining_money">Dostępne środki</string>
+
+    <string name="costs">Wydatki</string>
+    <string name="see_all_costs">Zobacz wszystkie</string>
+
+    <string-array name="cost_categories">
+        <item>Art. spożywcze</item>
+        <item>Odzież</item>
+        <item>AGD/RTV</item>
+        <item>Auto</item>
+        <item>Inne</item>
+    </string-array>
+
+    <string-array name="constant_costs_categories">
+        <item>Miesięczne</item>
+        <item>Roczne</item>
+        <item>Dzienne</item>
+    </string-array>
+
+    <string-array name="contant_income_frequency">
+        <item>Roczne</item>
+        <item>Kwartalne</item>
+        <item>Miesięczne</item>
+        <item>Dwutygodniowe</item>
+        <item>Dzienne</item>
+        <item>Niestandardowe</item>
+    </string-array>
+
+    <string name="lack_of_income_toast">Musisz podać wartość!</string>
+    <string name="lack_of_remaining_toast">Musisz podać wartość!</string>
+    <string name="lack_of_cost_value">Musisz podać wartość!</string>
+    <string name="lack_of_cost_name">Musisz podać nazwę!</string>
+    <string name="wrong_monthly_income">Źle podane miesięczne zarobki!</string>
+    <string name="lack_of_additional_item_name">Musisz podać nazwę!</string>
+    <string name="lack_of_additional_item_value">Musisz podać wartość!</string>
+
+    <string name="lack_of_target_name">Musisz podać nazwę!</string>
+    <string name="lack_of_target_value">Musisz podać wartość!</string>
+
+
+    <string name="your_monthly_income">Twoje miesięczne zarobki</string>
+    <string name="change">Zmień</string>
+
+    <string name="date">Data</string>
+    <string name="lack_of_costs">Brak wydatków</string>
+    <string name="lack_of_targets">Brak zdefiniowanych celi</string>
+    <string name="pay_off">Spłać</string>
+    <string name="remove">Usuń</string>
+
+    <string name="removing_item_message">Do you really want to remove this item?</string>
+    <string name="removing_item_title">Removing item</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+
+
+    <string name="holder_tag">HOLDER_TAG</string>
+    <string name="item_id">ITEM_ID</string>
+</resources>
